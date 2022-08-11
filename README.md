@@ -1,1 +1,3 @@
-# smartcontracts
+Latest deployed contracts:
+
+Staking: 0x39e4328C8b6F1aD52976FDEAFa7b46731CFEE9a9
