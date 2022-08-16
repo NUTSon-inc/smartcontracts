@@ -5,15 +5,15 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract NTN is ERC20, Ownable {
-    uint256 constant MAX_VALUE = 7000000000000000000000000000;
+    uint256 constant MAX_VALUE = 7_000_000_000 ether;
 
     uint256[] emission = [
         0, 
-        1750000000000000000000000000,
-        3150000000000000000000000000,
-        4550000000000000000000000000,
-        5600000000000000000000000000,
-        6300000000000000000000000000,
+        1750000000 ether,
+        3150000000 ether,
+        4550000000 ether,
+        5600000000 ether,
+        6300000000 ether,
         MAX_VALUE
     ];
 

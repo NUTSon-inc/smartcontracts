@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
 contract NTS is ERC20, Ownable, ERC20Permit, ERC20Votes {
-    uint256 public constant maxAmount =  1000000000 * 10**18;
+    uint256 public constant maxAmount =  1_000_000_000 ether;
 
     constructor() ERC20("NTS", "NTS") ERC20Permit("NTS") {}
 
