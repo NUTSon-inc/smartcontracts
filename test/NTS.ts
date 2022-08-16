@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { Signer, BigNumber } from "ethers";
+import { Signer } from "ethers";
 import { ethers } from "hardhat";
 import { NTS } from "../typechain";
 import { deployNTS } from "../utils/deployContracts"
@@ -8,8 +8,6 @@ describe("Test", function () {
   let nts: NTS
   let owner: Signer
   let user: Signer
-
-  let maxValue = BigNumber.from("7000000000000000000000000000")
 
   beforeEach(async ()=>{
     [owner, user] = await ethers.getSigners()
